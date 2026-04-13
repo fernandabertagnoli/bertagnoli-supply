@@ -7,7 +7,8 @@
   --harbor: #0f766e;
   --harbor-dark: #115e59;
   --signal: #d45f43;
-  --shadow: 0 14px 38px rgba(24, 34, 31, 0.11);
+  --sun: #d7a642;
+  --shadow: 0 20px 60px rgba(24, 34, 31, 0.12);
 }
 
 * {
@@ -16,7 +17,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 74px;
+  scroll-padding-top: 96px;
 }
 
 body {
@@ -24,7 +25,7 @@ body {
   background: var(--page);
   color: var(--ink);
   font-family: "Inter", "Avenir Next", Arial, sans-serif;
-  line-height: 1.55;
+  line-height: 1.6;
 }
 
 img {
@@ -42,17 +43,17 @@ a {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
-  gap: 22px;
-  min-height: 66px;
-  padding: 8px 6vw;
-  background: rgba(247, 249, 248, 0.94);
+  gap: 28px;
+  min-height: 82px;
+  padding: 14px 6vw;
+  background: rgba(247, 249, 248, 0.92);
   border-bottom: 1px solid rgba(219, 226, 223, 0.9);
-  backdrop-filter: blur(16px);
+  backdrop-filter: blur(18px);
 }
 
 .brand {
   display: block;
-  width: 82px;
+  width: 118px;
   text-decoration: none;
 }
 
@@ -65,8 +66,8 @@ a {
 .nav {
   display: flex;
   justify-content: center;
-  gap: 28px;
-  font-size: 0.95rem;
+  gap: 34px;
+  font-size: 1rem;
 }
 
 .nav a {
@@ -94,15 +95,15 @@ a {
 .language {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  height: 34px;
-  padding: 0 10px;
+  gap: 10px;
+  height: 42px;
+  padding: 0 14px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--surface);
   color: var(--ink);
   font: inherit;
-  font-size: 0.86rem;
+  font-size: 0.92rem;
   cursor: pointer;
 }
 
@@ -113,8 +114,8 @@ a {
 .language-flag {
   position: relative;
   overflow: hidden;
-  width: 18px;
-  height: 18px;
+  width: 22px;
+  height: 22px;
   border-radius: 50%;
   background:
     radial-gradient(circle at center, #243f98 0 30%, transparent 31%),
@@ -131,35 +132,35 @@ a {
   content: "";
   position: absolute;
   inset: 0 auto auto 0;
-  width: 8px;
-  height: 10px;
+  width: 10px;
+  height: 12px;
   background: #3c3b6e;
 }
 
 .language-code {
-  min-width: 20px;
+  min-width: 22px;
   font-weight: 700;
 }
 
 .hero {
-  min-height: 520px;
+  min-height: calc(100vh - 82px);
   display: grid;
-  align-items: center;
-  padding: 70px 6vw 58px;
+  align-items: end;
+  padding: 96px 6vw 72px;
   background:
-    linear-gradient(90deg, rgba(13, 24, 22, 0.76), rgba(13, 24, 22, 0.34) 60%, rgba(13, 24, 22, 0.14)),
-    url("https://images.unsplash.com/photo-1759970729402-91357e49379e?auto=format&fit=crop&w=2400&q=85") center 36% / cover;
+    linear-gradient(90deg, rgba(13, 24, 22, 0.78), rgba(13, 24, 22, 0.36) 58%, rgba(13, 24, 22, 0.16)),
+    url("https://images.unsplash.com/photo-1759970729402-91357e49379e?auto=format&fit=crop&w=2600&q=85") center 36% / cover;
 }
 
 .hero-copy {
-  width: min(620px, 100%);
+  width: min(760px, 100%);
   color: white;
 }
 
 .eyebrow {
-  margin: 0 0 12px;
+  margin: 0 0 14px;
   color: var(--harbor);
-  font-size: 0.78rem;
+  font-size: 0.82rem;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -179,18 +180,18 @@ p {
 .section-copy h2,
 .contact h2 {
   margin: 0;
-  line-height: 1.1;
+  line-height: 1.08;
   font-weight: 760;
 }
 
 .hero h1 {
-  font-size: clamp(2.25rem, 4vw, 3.25rem);
+  font-size: 4rem;
 }
 
 .hero p:not(.eyebrow) {
-  width: min(540px, 100%);
-  margin: 18px 0 0;
-  font-size: 1.05rem;
+  width: min(620px, 100%);
+  margin: 24px 0 0;
+  font-size: 1.2rem;
 }
 
 .primary-action,
@@ -203,9 +204,9 @@ p {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin-top: 24px;
-  min-height: 42px;
-  padding: 0 18px;
+  margin-top: 34px;
+  min-height: 50px;
+  padding: 0 22px;
   border-radius: 8px;
   background: var(--signal);
   color: white;
@@ -217,48 +218,48 @@ p {
 .chat-button:hover,
 .contact-form button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 14px 28px rgba(24, 34, 31, 0.18);
+  box-shadow: 0 16px 34px rgba(24, 34, 31, 0.2);
 }
 
 .intro,
 .services,
 .contact {
-  padding: 66px 6vw;
+  padding: 96px 6vw;
 }
 
 .intro {
   display: grid;
-  grid-template-columns: minmax(0, 0.95fr) minmax(360px, 1fr);
+  grid-template-columns: minmax(0, 0.95fr) minmax(380px, 1fr);
   align-items: center;
-  gap: 54px;
+  gap: 72px;
 }
 
 .section-copy {
-  width: min(640px, 100%);
+  width: min(680px, 100%);
 }
 
 .section-copy.centered {
-  margin: 0 auto 34px;
+  margin: 0 auto 46px;
   text-align: center;
 }
 
 .section-copy h2,
 .contact h2 {
-  font-size: clamp(2rem, 3.2vw, 2.55rem);
+  font-size: 3rem;
 }
 
 .section-copy p:not(.eyebrow),
 .contact-copy p:not(.eyebrow) {
-  margin: 16px 0 0;
+  margin: 22px 0 0;
   color: var(--muted);
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .image-pair {
   display: grid;
   grid-template-columns: 1fr 0.72fr;
   align-items: end;
-  gap: 16px;
+  gap: 18px;
 }
 
 .image-pair img {
@@ -270,12 +271,12 @@ p {
 }
 
 .image-pair img:first-child {
-  height: 380px;
+  height: 520px;
 }
 
 .image-pair img:last-child {
-  height: 245px;
-  margin-bottom: -24px;
+  height: 330px;
+  margin-bottom: -36px;
   border: 8px solid var(--page);
 }
 
@@ -286,12 +287,12 @@ p {
 .service-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 16px;
+  gap: 18px;
 }
 
 .service-item {
-  min-height: 235px;
-  padding: 22px;
+  min-height: 320px;
+  padding: 28px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: linear-gradient(180deg, #ffffff, #f8fbfa);
@@ -300,31 +301,30 @@ p {
 .service-item span {
   display: inline-grid;
   place-items: center;
-  width: 34px;
-  height: 34px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
   background: rgba(15, 118, 110, 0.1);
   color: var(--harbor-dark);
-  font-size: 0.82rem;
   font-weight: 800;
 }
 
 .service-item h3 {
-  margin: 24px 0 10px;
-  font-size: 1.25rem;
+  margin: 34px 0 12px;
+  font-size: 1.55rem;
   line-height: 1.18;
 }
 
 .service-item p {
   margin: 0;
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 .contact {
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(340px, 0.78fr);
-  gap: 44px;
+  grid-template-columns: minmax(0, 0.9fr) minmax(360px, 0.8fr);
+  gap: 58px;
   background:
     linear-gradient(180deg, rgba(247, 249, 248, 0.94), rgba(247, 249, 248, 0.94)),
     url("https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=2200&q=85") center / cover;
@@ -336,8 +336,8 @@ p {
 
 .contact-form {
   display: grid;
-  gap: 12px;
-  padding: 24px;
+  gap: 14px;
+  padding: 30px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.92);
@@ -359,14 +359,14 @@ p {
 }
 
 .contact-form input {
-  height: 42px;
-  padding: 0 12px;
+  height: 48px;
+  padding: 0 14px;
 }
 
 .contact-form textarea {
   resize: vertical;
-  min-height: 112px;
-  padding: 10px 12px;
+  min-height: 132px;
+  padding: 12px 14px;
 }
 
 .contact-form input:focus,
@@ -377,8 +377,8 @@ p {
 
 .contact-form button {
   justify-self: start;
-  min-height: 42px;
-  padding: 0 22px;
+  min-height: 48px;
+  padding: 0 26px;
   border: 0;
   border-radius: 8px;
   background: var(--harbor);
@@ -392,8 +392,8 @@ p {
   grid-column: 1 / -1;
   display: flex;
   flex-wrap: wrap;
-  gap: 12px 22px;
-  padding-top: 22px;
+  gap: 14px 24px;
+  padding-top: 26px;
   border-top: 1px solid var(--line);
   color: var(--muted);
   font-style: normal;
@@ -406,27 +406,26 @@ p {
 
 .chat-button {
   position: fixed;
-  right: 18px;
-  bottom: 18px;
+  right: 24px;
+  bottom: 22px;
   z-index: 20;
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  min-height: 42px;
-  padding: 0 16px;
+  gap: 10px;
+  min-height: 52px;
+  padding: 0 20px;
   border-radius: 8px;
   background: #22a565;
   color: white;
   text-decoration: none;
-  font-size: 0.94rem;
   font-weight: 800;
-  box-shadow: 0 12px 26px rgba(34, 165, 101, 0.25);
+  box-shadow: 0 14px 34px rgba(34, 165, 101, 0.28);
 }
 
 .chat-icon {
   position: relative;
-  width: 17px;
-  height: 17px;
+  width: 20px;
+  height: 20px;
   border: 2px solid currentColor;
   border-radius: 50%;
 }
@@ -436,8 +435,8 @@ p {
   position: absolute;
   right: 0;
   bottom: -4px;
-  width: 7px;
-  height: 7px;
+  width: 8px;
+  height: 8px;
   border-right: 2px solid currentColor;
   border-bottom: 2px solid currentColor;
   transform: rotate(28deg);
@@ -451,17 +450,17 @@ p {
 
 @media (max-width: 860px) {
   html {
-    scroll-padding-top: 116px;
+    scroll-padding-top: 140px;
   }
 
   .site-header {
     grid-template-columns: 1fr auto;
-    gap: 10px;
-    padding: 10px 20px;
+    gap: 12px;
+    padding: 12px 20px;
   }
 
   .brand {
-    width: 78px;
+    width: 104px;
   }
 
   .nav {
@@ -475,12 +474,12 @@ p {
   }
 
   .hero {
-    min-height: 500px;
-    padding: 62px 24px 46px;
+    min-height: 640px;
+    padding: 76px 24px 54px;
   }
 
   .hero h1 {
-    font-size: 2.2rem;
+    font-size: 2.8rem;
   }
 
   .intro,
@@ -491,7 +490,7 @@ p {
   .intro,
   .services,
   .contact {
-    padding: 52px 24px;
+    padding: 72px 24px;
   }
 
   .image-pair {
@@ -500,7 +499,7 @@ p {
 
   .image-pair img:first-child,
   .image-pair img:last-child {
-    height: 280px;
+    height: 300px;
     margin: 0;
     border: 0;
   }
@@ -510,7 +509,7 @@ p {
   .hero h1,
   .section-copy h2,
   .contact h2 {
-    font-size: 1.9rem;
+    font-size: 2.25rem;
   }
 
   .hero p:not(.eyebrow),
@@ -524,11 +523,11 @@ p {
   }
 
   .contact-form {
-    padding: 20px;
+    padding: 22px;
   }
 
   .chat-button {
-    right: 14px;
-    bottom: 14px;
+    right: 16px;
+    bottom: 16px;
   }
 }
