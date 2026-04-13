@@ -1,73 +1,69 @@
-const translations = {
+﻿const translations = {
   pt: {
-    "meta.description": "Serviços de bordo e operações portuárias para embarcações.",
-    "nav.home": "Início",
+    "meta.description": "Servi\u00e7os de bordo, provis\u00f5es e apoio log\u00edstico para opera\u00e7\u00f5es portu\u00e1rias.",
+    "nav.home": "In\u00edcio",
     "nav.about": "Sobre",
-    "nav.services": "Serviços",
+    "nav.services": "Servi\u00e7os",
     "nav.contact": "Contato",
-    "hero.title": "Serviços de Bordo e Operações Portuárias para Embarcações.",
-    "hero.caption": "Suprimentos e serviços para embarcações no Vale do Itajaí.",
-    "about.title": "Sobre a Bertagnoli Supply",
-    "about.kicker": "Nossa História",
-    "about.text": "A Bertagnoli Supply é uma prestadora de serviços logísticos localizada na área portuária de Itajaí, especializada em suprimentos para embarcações de longo percurso e cabotagem no Brasil. Atuamos como intermediários operacionais, facilitando o embarque de carga e a logística para empresas sem registro portuário.",
-    "services.title": "Nossos Serviços",
-    "services.kicker": "O que fazemos",
-    "services.text": "Na Bertagnoli Supply, oferecemos soluções logísticas completas e eficientes para atender às necessidades de nossos clientes no setor marítimo.",
+    "hero.kicker": "Itaja\u00ed - Santa Catarina",
+    "hero.title": "Apoio portu\u00e1rio para embarca\u00e7\u00f5es que precisam seguir viagem.",
+    "hero.text": "Suprimentos, provis\u00f5es e coordena\u00e7\u00e3o local para opera\u00e7\u00f5es mar\u00edtimas com agilidade e cuidado.",
+    "hero.cta": "Falar pelo WhatsApp",
+    "about.kicker": "Sobre a Bertagnoli Supply",
+    "about.title": "Presen\u00e7a local para simplificar a opera\u00e7\u00e3o no porto.",
+    "about.text": "A Bertagnoli Supply atua na \u00e1rea portu\u00e1ria de Itaja\u00ed com suporte log\u00edstico para embarca\u00e7\u00f5es de longo curso e cabotagem no Brasil. Organizamos entregas, suprimentos e apoio operacional para empresas que precisam de um parceiro local confi\u00e1vel.",
+    "services.kicker": "Servi\u00e7os",
+    "services.title": "O que resolvemos a bordo e no cais.",
+    "services.text": "Cada demanda \u00e9 coordenada com fornecedores confi\u00e1veis, prazos claros e comunica\u00e7\u00e3o direta com a equipe envolvida.",
     "service.supply.title": "Abastecimento",
-    "service.supply.kicker": "Suprimentos a Bordo",
-    "service.supply.text": "Realizamos o abastecimento completo de embarcações, fornecendo suprimentos essenciais para a operação marítima. Atendemos desde itens operacionais até necessidades da tripulação, garantindo agilidade, qualidade e entregas diretamente no porto ou a bordo da embarcação.",
-    "service.provisions.title": "Provisões",
-    "service.provisions.kicker": "Alimentos e Bebidas",
-    "service.provisions.text": "Fornecemos provisões completas para embarcações, incluindo alimentos, bebidas e itens de consumo para a tripulação. Trabalhamos com fornecedores confiáveis para garantir produtos de qualidade e entregas rápidas, atendendo às demandas específicas de cada operação.",
-    "service.coordination.title": "Coordenação",
-    "service.coordination.kicker": "Atendimento a Empresas sem Cadastro no Porto",
-    "service.coordination.text": "Auxiliamos empresas que não possuem cadastro ou presença operacional no porto a realizar fornecimentos e operações necessárias. Atuamos como parceiro local, organizando a logística, a entrega de materiais e o suporte para que a operação ocorra de forma ágil e dentro das exigências portuárias.",
-    "service.logistics.title": "Logística",
-    "service.logistics.kicker": "Serviços Integrados",
-    "service.logistics.text": "Oferecemos suporte logístico completo para operações portuárias e marítimas, incluindo fornecimento de materiais, coordenação de entregas e suporte operacional. Nosso objetivo é simplificar processos e garantir que cada operação ocorra com eficiência e confiabilidade.",
-    "contact.title": "Entre em Contato",
-    "contact.email": "Email *",
-    "contact.newsletter": "Yes, subscribe me to your newsletter. *",
+    "service.supply.text": "Entrega de materiais essenciais para a opera\u00e7\u00e3o mar\u00edtima, diretamente no porto ou a bordo da embarca\u00e7\u00e3o.",
+    "service.provisions.title": "Provis\u00f5es",
+    "service.provisions.text": "Alimentos, bebidas e itens de consumo para tripula\u00e7\u00f5es, com sele\u00e7\u00e3o de fornecedores e resposta r\u00e1pida.",
+    "service.coordination.title": "Coordena\u00e7\u00e3o",
+    "service.coordination.text": "Apoio para empresas sem cadastro ou presen\u00e7a operacional no porto, com organiza\u00e7\u00e3o de entregas e documenta\u00e7\u00e3o b\u00e1sica.",
+    "service.logistics.title": "Log\u00edstica",
+    "service.logistics.text": "Suporte integrado para materiais, prazos e rotinas portu\u00e1rias, reduzindo atritos entre fornecedor, ag\u00eancia e embarca\u00e7\u00e3o.",
+    "contact.kicker": "Contato",
+    "contact.title": "Vamos organizar sua pr\u00f3xima entrega.",
+    "contact.text": "Envie a demanda, o porto, o prazo e os dados da embarca\u00e7\u00e3o. Retornamos pelo canal mais r\u00e1pido.",
+    "contact.email": "Email",
+    "contact.message": "Mensagem",
     "contact.submit": "Enviar",
-    "contact.location": "Itajaí - SC, Brasil",
-    "legal.privacy": "Política de Privacidade",
-    "legal.accessibility": "Declaração de acessibilidade",
-    "chat.label": "Vamos conversar por chat"
+    "contact.location": "Itaja\u00ed - SC, Brasil",
+    "chat.label": "WhatsApp"
   },
   en: {
-    "meta.description": "On-board supply services and port operations for vessels.",
+    "meta.description": "On-board supplies, provisions and logistics support for port operations.",
     "nav.home": "Home",
     "nav.about": "About",
     "nav.services": "Services",
     "nav.contact": "Contact",
-    "hero.title": "On-Board Supply and Port Operations Services for Vessels.",
-    "hero.caption": "Supplies and services for vessels in the Itajaí Valley.",
-    "about.title": "About Bertagnoli Supply",
-    "about.kicker": "Our Story",
-    "about.text": "Bertagnoli Supply is a logistics services provider located in the port area of Itajaí, specialized in supplies for long-haul and cabotage vessels in Brazil. We act as operational intermediaries, facilitating cargo boarding and logistics for companies without port registration.",
-    "services.title": "Our Services",
-    "services.kicker": "What we do",
-    "services.text": "At Bertagnoli Supply, we offer complete and efficient logistics solutions to meet our clients' needs in the maritime sector.",
+    "hero.kicker": "Itajai - Santa Catarina",
+    "hero.title": "Port support for vessels that need to keep moving.",
+    "hero.text": "Supplies, provisions and local coordination for maritime operations with speed and care.",
+    "hero.cta": "Talk on WhatsApp",
+    "about.kicker": "About Bertagnoli Supply",
+    "about.title": "Local presence to simplify port operations.",
+    "about.text": "Bertagnoli Supply works in the port area of Itajai with logistics support for long-haul and cabotage vessels in Brazil. We organize deliveries, supplies and operational support for companies that need a reliable local partner.",
+    "services.kicker": "Services",
+    "services.title": "What we handle on board and dockside.",
+    "services.text": "Each request is coordinated with reliable suppliers, clear timing and direct communication with the team involved.",
     "service.supply.title": "Supply",
-    "service.supply.kicker": "On-Board Supplies",
-    "service.supply.text": "We provide complete vessel supply services, delivering essential items for maritime operations. We handle everything from operational materials to crew needs, ensuring agility, quality and deliveries directly at the port or on board the vessel.",
+    "service.supply.text": "Delivery of essential materials for maritime operations, directly at the port or on board the vessel.",
     "service.provisions.title": "Provisions",
-    "service.provisions.kicker": "Food and Beverages",
-    "service.provisions.text": "We provide complete provisions for vessels, including food, beverages and crew consumption items. We work with reliable suppliers to ensure quality products and fast deliveries, meeting the specific demands of each operation.",
+    "service.provisions.text": "Food, beverages and crew consumption items, with supplier selection and fast response.",
     "service.coordination.title": "Coordination",
-    "service.coordination.kicker": "Support for Companies without Port Registration",
-    "service.coordination.text": "We assist companies that do not have registration or an operational presence at the port in carrying out required supplies and operations. We act as a local partner, organizing logistics, material delivery and support so the operation runs efficiently and within port requirements.",
+    "service.coordination.text": "Support for companies without port registration or local presence, including delivery organization and basic documentation.",
     "service.logistics.title": "Logistics",
-    "service.logistics.kicker": "Integrated Services",
-    "service.logistics.text": "We offer complete logistics support for port and maritime operations, including material supply, delivery coordination and operational support. Our goal is to simplify processes and ensure each operation runs with efficiency and reliability.",
-    "contact.title": "Get in Touch",
-    "contact.email": "Email *",
-    "contact.newsletter": "Yes, subscribe me to your newsletter. *",
+    "service.logistics.text": "Integrated support for materials, deadlines and port routines, reducing friction between supplier, agency and vessel.",
+    "contact.kicker": "Contact",
+    "contact.title": "Let's organize your next delivery.",
+    "contact.text": "Send the request, port, deadline and vessel details. We will reply through the fastest channel.",
+    "contact.email": "Email",
+    "contact.message": "Message",
     "contact.submit": "Send",
-    "contact.location": "Itajaí - SC, Brazil",
-    "legal.privacy": "Privacy Policy",
-    "legal.accessibility": "Accessibility Statement",
-    "chat.label": "Let's chat"
+    "contact.location": "Itajai - SC, Brazil",
+    "chat.label": "WhatsApp"
   }
 };
 
@@ -95,7 +91,7 @@ function setLanguage(language) {
   languageButton.dataset.language = language;
   languageButton.setAttribute(
     "aria-label",
-    language === "pt" ? "Idioma atual: português. Trocar para inglês" : "Current language: English. Switch to Portuguese"
+    language === "pt" ? "Idioma atual: portugu\u00eas. Trocar para ingl\u00eas" : "Current language: English. Switch to Portuguese"
   );
   localStorage.setItem("site-language", language);
 }
@@ -122,15 +118,7 @@ document.querySelectorAll('.nav a[href^="#"]').forEach((link) => {
     event.preventDefault();
 
     const headerHeight = document.querySelector(".site-header").offsetHeight;
-    const targetId = target.getAttribute("id");
-    const offsets = {
-      inicio: 0,
-      sobre: 72,
-      servicos: 34,
-      contato: -170
-    };
-    const extraSpace = offsets[targetId] ?? 34;
-    const top = target.getBoundingClientRect().top + window.scrollY - headerHeight - extraSpace;
+    const top = target.getBoundingClientRect().top + window.scrollY - headerHeight - 18;
 
     window.scrollTo({
       top: Math.max(0, top),
